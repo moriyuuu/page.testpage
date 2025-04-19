@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Furniture | モダンな暮らしを彩る家具</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo">Modern Furniture</h1>
+            <nav class="nav">
+                <button class="menu-toggle" aria-label="メニュー">
+                    <span></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#concept">コンセプト</a></li>
+                    <li><a href="#products">商品</a></li>
+                    <li><a href="#about">私たちについて</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- メインビジュアル -->
+    <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');">
+        <div class="hero-content">
+            <h2 class="hero-title">暮らしに寄り添う、<br>上質な家具</h2>
+            <p class="hero-text">シンプルで洗練されたデザインと、<br>確かな品質をお届けします</p>
+            <a href="#products" class="btn-primary">商品を見る</a>
+        </div>
+    </section>
+
+    <!-- コンセプト -->
+    <section id="concept" class="section concept">
+        <div class="section-inner">
+            <h2 class="section-title">Concept</h2>
+            <div class="concept-content">
+                <p class="concept-text">
+                    私たちは、日々の暮らしに寄り添う家具を提供します。<br>
+                    シンプルで美しいデザイン、確かな品質、<br>
+                    そして長く愛用できる耐久性を大切にしています。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 商品 -->
+    <section id="products" class="section products">
+        <div class="section-inner">
+            <h2 class="section-title">Products</h2>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="モダンソファ">
+                    </div>
+                    <div class="product-info">
+                        <h3>ソファ</h3>
+                        <p>上質な素材と快適な座り心地</p>
+                        <span class="price">¥120,000</span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="ダイニングテーブル">
+                    </div>
+                    <div class="product-info">
+                        <h3>ダイニングテーブル</h3>
+                        <p>天然木の温もり</p>
+                        <span class="price">¥180,000</span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="チェア">
+                    </div>
+                    <div class="product-info">
+                        <h3>チェア</h3>
+                        <p>デザインと機能性の融合</p>
+                        <span class="price">¥45,000</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section id="contact" class="section contact">
+        <div class="section-inner">
+            <h2 class="section-title">Contact</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">メッセージ</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">送信する</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <p class="copyright">© 2024 Modern Furniture. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
